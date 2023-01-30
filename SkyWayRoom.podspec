@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "SkyWayCore"
+  spec.name         = "SkyWayRoom"
   spec.version      = "1.0.0"
-  spec.summary      = "SkyWay Core framework"
+  spec.summary      = "SkyWay Room framework"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,6 +28,7 @@ Pod::Spec.new do |spec|
   "SkyWay" is a framework that enables using SkyWay in iOS apps.
   SkyWay simplifies peer-to-peer data, video, and audio calls using WebRTC.
                    DESC
+
 
   spec.homepage     = "https://skyway.ntt.com"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -41,7 +42,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "LICENSE" }
+  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,10 +80,10 @@ Pod::Spec.new do |spec|
   #
 
   spec.source           = {
-    :http => 'https://github.com/skyway/ios-sdk/releases/download/1.0.0/SkyWayCore.xcframework.zip',
+    :http => 'https://github.com/skyway/ios-sdk/releases/download/1.0.0/SkyWayRoom.xcframework.zip',
     :headers => ['Accept: application/octet-stream']
   }
-  spec.vendored_frameworks = 'SkyWayCore.xcframework'
+  spec.vendored_frameworks = 'SkyWayRoom.xcframework'
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -134,6 +135,7 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "WebRTC", "104.0.0"
+  spec.dependency "SkyWayCore", "1.0.0"
+  spec.dependency "SkyWaySFUBot", "1.0.0"
 
 end
