@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SkyWaySFUBot"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "SkyWay SFU Bot framework"
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source           = {
-    :http => 'https://github.com/skyway/ios-sdk/releases/download/1.1.0/SkyWaySFUBot.xcframework.zip',
+    :http => 'https://github.com/skyway/ios-sdk/releases/download/1.2.0/SkyWaySFUBot.xcframework.zip',
     :headers => ['Accept: application/octet-stream']
   }
   spec.vendored_frameworks = 'SkyWaySFUBot.xcframework'
@@ -134,7 +134,7 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "SkyWayCore", "1.1.0"
-  spec.dependency "WebRTC", "104.0.0"
+  spec.dependency "SkyWayCore", "1.2.0"
+  spec.dependency "WebRTC", "104.0.1"
 
 end
