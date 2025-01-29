@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SkyWayCore"
-  spec.version      = "2.1.7"
+  spec.version      = "2.2.0"
   spec.summary      = "SkyWay Core framework"
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source           = {
-    :http => 'https://github.com/skyway/ios-sdk/releases/download/2.1.7/SkyWayCore.xcframework.zip',
+    :http => 'https://github.com/skyway/ios-sdk/releases/download/2.2.0/SkyWayCore.xcframework.zip',
     :headers => ['Accept: application/octet-stream']
   }
   spec.vendored_frameworks = 'SkyWayCore.xcframework'
