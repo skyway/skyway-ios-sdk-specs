@@ -54,7 +54,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author           = { 'NTT Communications' => 'skyway@ntt.com' }
+  spec.author           = { 'NTT DOCOMO BUSINESS, Inc.' => 'skyway@ntt.com' }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
