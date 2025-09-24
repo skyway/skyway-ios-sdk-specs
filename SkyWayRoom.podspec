@@ -67,7 +67,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "12.0"
+  spec.ios.deployment_target = "14.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -135,7 +135,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "SkyWayCore", "2.3.2"
-  spec.dependency "SkyWaySFUBot", "2.3.2"
+  spec.dependency "WebRTC", "120.1.0"
 
 end
